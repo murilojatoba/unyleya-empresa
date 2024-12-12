@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  meu-trocado-bd:
+    build:
+      context: .
+    container_name: meu-trocado-bd
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=meu_trocado
+      - PGPORT=5432
+    volumes:
+      - ~/banco-de-dados/meu-trocado:/var/lib/postgresql/data
+      - ../../scripts/migrations/:/docker-entrypoint-initdb.d/

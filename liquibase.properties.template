@@ -1,0 +1,17 @@
+#################################################
+# Criar uma cópia deste arquivo nesta pasta     #
+# sem a extensão .template e preencher os dados #
+#################################################
+
+# Conexão com BD
+driver: org.postgresql.Driver
+url: jdbc:postgresql://host:porta/bd
+username: ??????
+password: ??????
+
+
+# Configurações padrão
+changeLogFile: src/main/resources/migrations/rootchangelog.yml
+outputFileEncoding: UTF-8
+defaultSchemaName: unyleya-empresa
+
