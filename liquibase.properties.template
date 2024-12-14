@@ -13,5 +13,5 @@ password: ??????
 # Configurações padrão
 changeLogFile: src/main/resources/migrations/rootchangelog.yml
 outputFileEncoding: UTF-8
-defaultSchemaName: unyleya-empresa
+defaultSchemaName: ??????
 
