@@ -79,7 +79,11 @@
 		    <artifactId>liquibase-core</artifactId>
 		    <version>${liquibase.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.2.10</version>
+		</dependency>
     </dependencies>
     <properties>
         <jersey.version>1.19.4</jersey.version>
